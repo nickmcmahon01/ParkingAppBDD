@@ -1,4 +1,4 @@
-Feature: Simple precedence of allocations based on person type
+Feature: Simple precedence of allocations based on applicant type
 
 Background:
   Given there are 14 spaces
