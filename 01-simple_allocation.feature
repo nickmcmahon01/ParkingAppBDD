@@ -8,7 +8,7 @@ Background:
 Scenario: There are enough spaces for all applicants.
   Given there are 13 applications from employees
   When the draw is done
-  Then 14 employees are allocated a space
+  Then 13 employees are allocated a space
 
 Scenario: There are not enough spaces for all applicants.
   Given there are 15 applications from employees
