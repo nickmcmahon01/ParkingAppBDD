@@ -41,7 +41,7 @@ Scenario: Contractor access needs take precedence over an employee.
   And 13 employees are allocated a space
   And 1 employee is added to the reserve list
   
-  Scenario: All applicant types apply. 
+Scenario: All applicant types apply. 
   Given there are 13 applications from employees
   And there are 5 applications from contractors
   And there are 2 applications from visitors
