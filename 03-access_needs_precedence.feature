@@ -1,3 +1,10 @@
+Feature: access needs take precedence over applicant type
+
+Background:
+  Given there are 14 spaces
+  And there are 0 applicants on the reserve list
+  And the contractor grace period is 0
+  
 Scenario: Employee access needs take precedence over visitors. 
   Given there are 13 applications from employees
   And there are 2 applications from visitors
