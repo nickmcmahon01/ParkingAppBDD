@@ -11,5 +11,6 @@ Scenario: A visitor takes precedence over an employee even if they are on the re
   And there is 1 application from a visitor
   When the draw is done
   Then 1 visitor is allocated a space
-  And 4 employees are allocated a space
-  And 1 employee is added to the reserve list
+  Then 1 employee on the reserve list is allocated a space
+  And 3 employees are allocated a space
+  And 2 employees are added to the reserve list
